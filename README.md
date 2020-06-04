@@ -1,2 +1,3 @@
 # markdown-api
-## An API for markdown
+## An API for Markdown
+
