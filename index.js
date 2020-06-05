@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 converter = new showdown.Converter();
  
 const ADMIN = 'admin';
-const ADMIN_PASSWORD = 'smagazine';
+const ADMIN_PASSWORD = 'aweakpass';
 const SECRET = 'secret#4456';
  
 passport.use(new LocalStrategy(function(username, password, done) {
@@ -25,7 +25,7 @@ passport.use(new LocalStrategy(function(username, password, done) {
 }));
  
 app.get('/', function(req, res){
-    res.send('Hello World!');
+    res.send('A markdown to HTML converter');
 });
  
  
