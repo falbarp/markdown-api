@@ -1,3 +1,5 @@
 # markdown-api
-## An API for Markdown.
+## An API to convert Markdown to HTML.
+
+
 
