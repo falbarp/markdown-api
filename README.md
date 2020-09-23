@@ -7,4 +7,4 @@
 - Call the request (md-place.js)
 
 ## TO DO:
-- Read text from file
+- Read text from file.
